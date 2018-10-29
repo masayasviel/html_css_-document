@@ -6,6 +6,7 @@ html {
 body {
     margin: 0 auto;
     width: 900px;
+    background: linear-gradient(#CEF6CE, #40FF00);
 }
 
 header h1 {
@@ -42,9 +43,15 @@ p.hoge {
 .osusume_anime {
     float: left;
     width: 450px;
+    text-align: center;
 }
 
 .seisaku {
     float: right;
     width: 450px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }

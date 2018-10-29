@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+header h1 {
+    color: red;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    width: 200px;
+    float: left;
+}
+nav a {
+    color: blue;
+    background: gold;
+    display: block;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+nav a:hover {
+    color: red;
+}
+
+p.hoge {
+    font-size: medium;
+    font-family: "ＭＳ 明朝";
+}
+
+.osusume_anime {
+    float: left;
+    width: 450px;
+}
+
+.seisaku {
+    float: right;
+    width: 450px;
+}

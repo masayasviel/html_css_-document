@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>html・css勉強会用</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>これはサンプルページです</h1>
+            <p title="オタクキモ……"><s>オタクの布教用ページになりかけてるってマジ？</s></p>
+            <nav>
+                <ul>
+                    <li><a href="#tyuni">画像にリンク</a></li>
+                    <li><a href="#anime">プルダウンメニュー</a></li>
+                    <li><a href="#games">テーブル</a></li>
+                    <li><a href="#hayakuti">ブロック</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+
+        <!-- 画像にリンクを入れる -->
+        <h1 id="tyuni">画像にリンク</h1>
+        <a href="https://sao-alicization.net/character/">
+            <img src="./image/ikirito.jpg" alt="イキリト" title="アスナは俺が守る" width="500" height="270">
+        </a>
+        <a href="http://www.anime-chu-2.com/tv/character/yuta/">
+            <img src="./image/togashi_yuta.jpg" alt="富樫雄太" title="ダークフレイムマスター" width="500" height="270">
+        </a>
+        <a href="http://g-tekketsu.com/2nd/story/48.php">
+            <img src="./image/marushou.jpg" alt="スマホ太郎" title="スマホの力を過信したな" width="500" height="270">
+        </a>
+
+        <!-- プルダウンメニュー -->
+        <h1 id="anime">プルダウンメニュー</h1>
+        <p class="hoge">アイドルアニメ選択してください。<br>選択したアニメのホームページへ<em>"飛びます"</em>。</p>
+        <select onChange="location.href=value;">
+            <option value="#">-----</option>
+            <option value="http://www.lovelive-anime.jp/">ラブライブ</option>
+            <option value="http://idoljihen.jp/">アイドル事変</option>
+            <option value="https://zombielandsaga.com/">ゾンビランドサガ</option>
+            <option value="http://ongaku-shoujo.jp/">音楽少女</option>
+            <option value="http://www.tbs.co.jp/anime/locodol/">普通の女子校生が【ろこどる】やってみた。</option>
+            <option value="https://wug-portal.jp/">Wake Up,Girls!</option>
+            <option value="https://idolmaster.jp/">アイドルマスター</option>
+        </select>
+
+        <!-- テーブル -->
+        <h1 id="games">テーブル</h1>
+        <table border="1">
+            <tr><th colspan="3">オススメゲーム</th></tr>
+            <tr><th>タイトル</th><th>ジャンル</th><th>備考</th></tr>
+            <tr><th>オトメドメイン</th><td>ギャルゲ</td><td>18歳未満は購入できない</td></tr>
+            <tr><th>ポケモン不思議のダンジョン</th><td>シナリオゲー</td><td>時闇が最高！</td></tr>
+            <tr><th>けいおん!放課後ライブ!!</th><td>音ゲー</td><td>けいおん!!で五億回泣いたので</td></tr>
+        </table>
+
+        <!-- DIV -->
+        <h1 id="hayakuti">ブロック</h1>
+        <div class="osusume_anime">
+            <h2>アニメ10作品</h2>
+            <ol>
+                <li>響け！ユーフォニアム</li>
+                <li>リトルウィッチアカデミア</li>
+                <li>四畳半神話大系</li>
+                <li>宇宙よりも遠い場所</li>
+                <li>少女歌劇　レビュースタァライト</li>
+                <li>ゾンビランドサガ</li>
+                <li>宇宙パトロールルル子</li>
+                <li>クロスアンジュ　天使と竜の輪舞</li>
+                <li>君の膵臓をたべたい</li>
+                <li>たまこまーけっと</li>
+            </ol>
+        </div>
+        <div class="seisaku">
+                <h2>アニメ制作会社10社</h2>
+                <ol>
+                    <li>京都アニメーション</li>
+                    <li>P.A.Works</li>
+                    <li>マッドハウス</li>
+                    <li>ボンズ</li>
+                    <li>ＴＲＩＧＧＥＲ</li>
+                    <li>ＭＡＰＰＡ</li>
+                    <li>サンライズ</li>
+                    <li>ライデンフィルム</li>
+                    <li>A-1 Pictures</li>
+                    <li>WHITE FOX</li>
+                </ol>
+            </div>
+    </body>
+</html>
